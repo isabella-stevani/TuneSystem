@@ -31,4 +31,12 @@ The beam oscillations are measured by a beam position monitor (BPM), stripline t
 \subsubsection{Notes}
 It's important to emphasize one characteristic of this system. The excitation signal excites \textbf{all bunches}, no exception. But the power absorbed by them is so little that this don't affect the beam dynamics in a significant proportion. Still, it's sufficient to compute the tune measurement due to the great sensibility of the signal analyzer.
 
+\subsubsection{Possible issues and solutions}
+\noindent
+\textbf{Plane identification}\\
+
+The signal analyzer system from UVX works with both planes at the same time, so both x-axis and y-axis frequency responses are displayed on the screen together. In that configuration, sometimes could be difficult for the tune measurement algorithm to identify which peak belongs to which axis.
+
+A possible solution to that would be working with each plane separately, exciting and measuring one plane at a time with a switch to do that shift. The benefits would be that x-axis and y-axis measurements would be more isolated from each other, but the shifting process would make impossible to measure both planes simultaneously like the actual system does. Also, the measurement process would became slower.
+
 \pagebreak
