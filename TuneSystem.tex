@@ -1,0 +1,46 @@
+\documentclass[a4paper, 12pt]{./Template/lnls-note}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{indentfirst}
+\numberwithin{equation}{section} %enumerate equations acording to their sections
+\usepackage[pdftex,colorlinks=true,citecolor=black,linkcolor=black,urlcolor=black,filecolor=black]{hyperref}
+\usepackage[num,abnt-emphasize=bf, bibjustif]{abntex2cite}
+\usepackage{tipa}
+\usepackage{ulem}
+\usepackage{mathrsfs}
+\citebrackets[]
+%\documentclass[a4paper, 12pt, report]{lnls-note} % if you want to have chapters choose this one
+\newcommand*\blankpage{\newpage\null\thispagestyle{empty}\newpage}
+%loads standard preamble configuration
+\input{./Template/standard_preamble.tex}
+
+%loads standard commands
+\input{./Template/new_commands.tex}
+
+
+\begin{document}
+
+\lnlstitle{134518}{\today}{Tune Measurement and Correction Systems}
+{Isabella Stevani}{\LNLS}
+{This document contains information about discussions and experiments done about tune measurement and correction systems. Its intention is to help in the comprehension about these two systems, using as an example the systems from UVX, the current operating particle accelerator at the Brazilian Synchrotron Light Laboratory (LNLS).}
+
+\blankpage
+\newpage
+\setcounter{page}{3}
+\tableofcontents
+
+
+\newpage
+\bibliography{biblio}
+
+
+\end{document}
+
+
+
+
+
+
+
+
